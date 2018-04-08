@@ -1,0 +1,32 @@
+{
+  "name": "newsscraping",
+  "version": "1.0.0",
+  "description": "news scraping site",
+  "main": "server.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "mongojs": "^2.5.0",
+    "mongoose": "^5.0.12",
+    "morgan": "^1.9.0",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sosika/NewsScraping.git"
+  },
+  "keywords": [
+    "scrape"
+  ],
+  "author": "Saijai Osika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sosika/NewsScraping/issues"
+  },
+  "homepage": "https://github.com/sosika/NewsScraping#readme"
+}
